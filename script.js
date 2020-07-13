@@ -43822,17 +43822,17 @@ function getInputValue() {
             `<a href="https://oldschool.runescape.wiki/?search=${itemSearchOnWiki[0]}+${itemSearchOnWiki[1]}" target="_blank">` +
             itemName +
             "</a>";
-          } else if (itemSearchOnWiki === 3) {
+          } else if (itemSearchOnWiki.length === 3) {
             listItem.innerHTML =
             `<a href="https://oldschool.runescape.wiki/?search=${itemSearchOnWiki[0]}+${itemSearchOnWiki[1]}+${itemSearchOnWiki[2]}" target="_blank">` +
             itemName +
             "</a>";
-          } else if (itemSearchOnWiki === 4) {
+          } else if (itemSearchOnWiki.length === 4) {
             listItem.innerHTML =
             `<a href="https://oldschool.runescape.wiki/?search=${itemSearchOnWiki[0]}+${itemSearchOnWiki[1]}+${itemSearchOnWiki[2]}+${itemSearchOnWiki[3]}" target="_blank">` +
             itemName +
             "</a>";
-          } else if (itemSearchOnWiki === 5) {
+          } else if (itemSearchOnWiki.length === 5) {
             listItem.innerHTML =
             `<a href="https://oldschool.runescape.wiki/?search=${itemSearchOnWiki[0]}+${itemSearchOnWiki[1]}+${itemSearchOnWiki[2]}+${itemSearchOnWiki[3]}+${itemSearchOnWiki[4]}" target="_blank">` +
             itemName +
